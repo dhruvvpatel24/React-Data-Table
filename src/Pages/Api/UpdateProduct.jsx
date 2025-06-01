@@ -54,7 +54,7 @@ const UpdateProduct = () => {
 
         {/* Product-category */}
 
-        <div className="mt-4">
+         <div className="mt-4">
           <select
             {...register("p_category", {
               required: {
@@ -65,7 +65,7 @@ const UpdateProduct = () => {
             className="form-select"
           >
             <option value="">--Select Category--</option>
-            <option value="Cloths">Cloths</option>
+            <option value="Clothes">Clothes</option>
             <option value="Electronics">Electronics</option>
             <option value="Kids">Kids</option>
             <option value="Other">Other</option>
